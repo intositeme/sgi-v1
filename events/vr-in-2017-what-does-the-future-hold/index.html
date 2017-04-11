@@ -25,7 +25,7 @@
 <meta name="og:type" content="website">
     <meta name="og:title" content="VR in 2017: What does the future hold?">
     <meta property="og:description" content="If 2016 was called The Year of VR, what’s in store for us in 2017? At our first meet-up of the year we’ll be hearing from three speakers who are all practitioners in the space, with very different businesses – a content creation &amp; consulting company, a VR arcade operator and creators of the first VR cinema.">
-    <meta property="og:image" content="/sgi-v1/images/calendar/avrlogo.jpg">
+    <meta property="og:image" content="/images/calendar/avrlogo.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
   <link href="/sgi-v1/styles/main_4e7deb04.css" rel="stylesheet"></head>
@@ -33,7 +33,7 @@
     <div id="app">
       <sgi-nav inline-template>
         <nav class="sgi-nav" v-bind:class="{ 'light': isLightToShow, 'nav-mobile-shown':isMobile, 'nav-compact-shown':isCompactShown }" @click="navHolderClick">
-          <div class="logo"><a href="/" v-on:click="click">
+          <div class="logo"><a href="/sgi-v1/" v-on:click="click">
 <div class="animation-holder">
   <div class="frame-0">
     <div class="logo-light"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="80px" viewBox="0 0 100 80" enable-background="new 0 0 100 80" xml:space="preserve"><path fill="#333E48" d="M23.913,38.322c0.633,0,1.228-0.244,1.676-0.692c0.004-0.003,13.044-13.043,13.044-13.043  c0.009-0.008,0.015-0.015,0.022-0.025c0.9-0.923,0.895-2.408-0.022-3.325c-0.446-0.448-1.042-0.693-1.679-0.693 c-0.631,0-1.225,0.245-1.676,0.697c-0.008,0.006-0.014,0.012-0.02,0.02c0,0-13.016,13.014-13.021,13.019  c-0.922,0.924-0.926,2.426,0,3.351C22.682,38.078,23.279,38.322,23.913,38.322 M39.325,35.953c0-1.306-1.062-2.369-2.369-2.369  c-1.305,0-2.367,1.062-2.367,2.369c0,1.307,1.062,2.369,2.367,2.369C38.263,38.322,39.325,37.26,39.325,35.953 M13.237,9.869  c0-1.306-1.061-2.369-2.369-2.369C9.564,7.5,8.5,8.562,8.5,9.869s1.064,2.368,2.368,2.368C12.177,12.237,13.237,11.175,13.237,9.869  M10.868,25.28c0.625,0,1.21-0.236,1.656-0.673c0.006-0.007,0.016-0.015,0.021-0.021l13.043-13.043c0.924-0.925,0.924-2.429,0-3.349 C25.141,7.747,24.546,7.5,23.913,7.5c-0.631,0-1.227,0.248-1.676,0.695C22.234,8.196,9.194,21.236,9.194,21.236 c-0.008,0.01-0.02,0.018-0.027,0.028C8.737,21.711,8.5,22.292,8.5,22.911C8.5,24.216,9.564,25.28,10.868,25.28"/><path fill="#FF4612" d="M10.868,38.322c0.635,0,1.229-0.246,1.678-0.692l26.087-26.087c0.926-0.923,0.926-2.427,0-3.349 c-0.446-0.446-1.042-0.692-1.677-0.692c-0.632,0-1.227,0.246-1.674,0.692L9.194,34.278c-0.445,0.448-0.691,1.042-0.691,1.674  c0,0.635,0.246,1.229,0.691,1.677C9.644,38.076,10.236,38.322,10.868,38.322"/></svg></div>
@@ -75,19 +75,19 @@
           <ul class="nav-list">
             <li class="nav-item" data-page="news" v-bind:class="{ 'is-active': 'news'==section }">
               <div class="nav-item__slash"><svg width="13" height="13" viewPort="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg"><line stroke-linecap="round" x1="0" y1="13" x2="13" y2="0" stroke="black" stroke-width="3"/></svg>
-              </div><a class="nav-link secondary" href="/news" v-on:click="click">News</a>
+              </div><a class="nav-link secondary" href="/sgi-v1/news" v-on:click="click">News</a>
             </li>
             <li class="nav-item" data-page="events" v-bind:class="{ 'is-active': 'events'==section }">
               <div class="nav-item__slash"><svg width="13" height="13" viewPort="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg"><line stroke-linecap="round" x1="0" y1="13" x2="13" y2="0" stroke="black" stroke-width="3"/></svg>
-              </div><a class="nav-link secondary" href="/events" v-on:click="click">Events</a>
+              </div><a class="nav-link secondary" href="/sgi-v1/events" v-on:click="click">Events</a>
             </li>
             <li class="nav-item" data-page="about" v-bind:class="{ 'is-active': 'about'==section }">
               <div class="nav-item__slash"><svg width="13" height="13" viewPort="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg"><line stroke-linecap="round" x1="0" y1="13" x2="13" y2="0" stroke="black" stroke-width="3"/></svg>
-              </div><a class="nav-link secondary" href="/about" v-on:click="click">About</a>
+              </div><a class="nav-link secondary" href="/sgi-v1/about" v-on:click="click">About</a>
             </li>
             <li class="nav-item" data-page="contact" v-bind:class="{ 'is-active': 'contact'==section }">
               <div class="nav-item__slash"><svg width="13" height="13" viewPort="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg"><line stroke-linecap="round" x1="0" y1="13" x2="13" y2="0" stroke="black" stroke-width="3"/></svg>
-              </div><a class="nav-link secondary" href="/contact" v-on:click="click">Contact</a>
+              </div><a class="nav-link secondary" href="/sgi-v1/contact" v-on:click="click">Contact</a>
             </li>
             <div class="nav-spacer"></div>
             <li class="nav-item secondary" data-page="join-us" v-bind:class="{ 'is-active': 'join-us'==section }">
@@ -125,7 +125,7 @@
                     <div class="sgi-block-row sgi-block-row-inner">
                       <div class="sgi-block-col sgi-block-col-inner">
                         <div class="sgi-block-content">
-                          <sgi-lines type="banner"></sgi-lines><img src="/sgi-v1/images/calendar/avrlogo.jpg" alt="">
+                          <sgi-lines type="banner"></sgi-lines><img src="/images/calendar/avrlogo.jpg" alt="">
                           <div class="card-image-icon">
                             <div class="tablefix">
                               <div class="tablefix-cell">
